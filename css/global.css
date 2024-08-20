@@ -1,0 +1,32 @@
+@import "./button.css";
+@import "./font.css";
+@import "./variables.css";
+*::hover::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #333136;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 2px;
+}
+
+img {
+  object-fit: cover;
+}
