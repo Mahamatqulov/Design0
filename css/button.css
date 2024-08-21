@@ -19,6 +19,11 @@ button {
   color: var(--dark-gray);
 }
 
+.button-on-dark:hover {
+  background-color: #eda392;
+  color: #fff;
+}
+
 /* &:hover {
   background-color: var(--light-peach-color);
 } */
