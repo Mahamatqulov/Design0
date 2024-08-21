@@ -155,21 +155,20 @@ h3 {
   line-height: 2.6rem;
 }
 
-/* .box1:hover {
+.box1:hover {
+  background-image: none;
   background-color: #e7816b;
 }
 
 .box3:hover {
+  background-image: none;
   background-color: #e7816b;
 }
 
 .box4:hover {
+  background-image: none;
   background-color: #e7816b;
-} */
-
-/* .content-box:hover {
-  background-color: #e7816b;
-} */
+}
 
 .box-footer {
   max-width: 1111px;
