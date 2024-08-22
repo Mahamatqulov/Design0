@@ -1,0 +1,204 @@
+@import "./global.css";
+@import "./font.css";
+.container {
+  max-width: 1111px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  overflow-x: hidden;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.main {
+  position: relative;
+  bottom: 4rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6.4rem 0 6.7rem 0;
+}
+
+.img-menu {
+  display: none;
+}
+
+.content_1 {
+  display: flex;
+  column-gap: 3rem;
+}
+
+.ftr-card {
+  max-width: 73rem;
+  width: 100%;
+  display: flex;
+}
+
+.ftr-card2 {
+  max-width: 73rem;
+  width: 100%;
+  display: flex;
+  column-gap: 1.5rem;
+}
+
+.ftr-card3 {
+  max-width: 73rem;
+  width: 100%;
+  display: flex;
+  column-gap: 3.5rem;
+}
+
+h1 {
+  padding: 0 0 0 4rem;
+  color: #e7816b;
+}
+
+.content-2 {
+  height: 15rem;
+  padding: 8rem 19.5rem 7rem 9.5rem;
+  background-color: #fdf3f0;
+  border-radius: 1rem;
+}
+
+.content-5 {
+  height: 15rem;
+  padding: 8rem 19.5rem 7rem 9.5rem;
+  background-color: #fdf3f0;
+  border-radius: 1rem;
+}
+
+.background-image {
+  background-image: url(../images/about/mobile/bg-pattern-hero-about-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -16rem 5rem;
+}
+
+.img img {
+  max-width: 35rem;
+  border-radius: 1rem;
+}
+
+.img-2 img {
+  max-width: 35rem;
+  border-radius: 1rem;
+}
+
+.img-3 img {
+  max-width: 35rem;
+  border-radius: 1rem;
+}
+
+.a {
+  font-weight: 700;
+}
+
+a {
+  line-height: 2.6rem;
+}
+
+.content-4 {
+  display: flex;
+  column-gap: 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    text-align: center;
+  }
+  .content_1 {
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    row-gap: 4rem;
+    padding: 0 2rem;
+  }
+  .content-4 {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 4rem;
+    padding: 12rem 2rem;
+  }
+  .img {
+    max-width: 73rem;
+    width: 100%;
+    content: url(../images/locations/tablet/image-map-canada.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    padding: 0 1rem;
+  }
+  .img-2 {
+    max-width: 73rem;
+    width: 100%;
+    content: url(../images/locations/tablet/image-map-australia.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    padding: 0 2rem;
+  }
+  .img-3 {
+    max-width: 73rem;
+    width: 100%;
+    content: url(../images/locations/tablet/image-map-uk.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .img-menu {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+  .content-4 {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 4rem;
+    padding: 12rem 2rem;
+  }
+  .content-3 {
+    max-width: 37.5rem;
+    width: 100%;
+    content: url(../images/locations/tablet/image-map-canada.png);
+    border-radius: 1rem;
+    padding: 0 2rem;
+  }
+  .content-6 {
+    max-width: 37.5rem;
+    width: 100%;
+    content: url(../images/locations/tablet/image-map-australia.png);
+    border-radius: 1rem;
+    padding: 0 2rem;
+  }
+  .content-7 {
+    max-width: 37.5rem;
+    width: 100%;
+    content: url(../images/locations/tablet/image-map-uk.png);
+    border-radius: 1rem;
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .content-2 {
+    padding: 2rem 0;
+  }
+  .content-5 {
+    padding: 2rem 0;
+  }
+}
