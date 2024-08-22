@@ -65,6 +65,17 @@ h1 {
 }
 
 .content-2 {
+  max-width: 45rem;
+  width: 100%;
+  height: 15rem;
+  padding: 8rem 19.5rem 7rem 9.5rem;
+  background-color: #fdf3f0;
+  border-radius: 1rem;
+}
+
+.content-22 {
+  max-width: 45rem;
+  width: 100%;
   height: 15rem;
   padding: 8rem 19.5rem 7rem 9.5rem;
   background-color: #fdf3f0;
@@ -72,6 +83,8 @@ h1 {
 }
 
 .content-5 {
+  max-width: 45rem;
+  width: 100%;
   height: 15rem;
   padding: 8rem 19.5rem 7rem 9.5rem;
   background-color: #fdf3f0;
@@ -113,19 +126,106 @@ a {
   column-gap: 3rem;
 }
 
+.box-footer {
+  max-width: 1111px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e7816b;
+  padding: 3.5rem 7.2rem;
+  border-radius: 2rem;
+  position: relative;
+  top: 7rem;
+}
+
+.ftr-backround {
+  background-image: url(../images/shared/desktop/bg-pattern-call-to-action.svg);
+  background-size: center;
+  background-repeat: no-repeat;
+  background-position: 22rem -12rem;
+}
+
+.box5 {
+  max-width: 46rem;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 4rem;
+  color: #fff;
+}
+
+.text3 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #fff;
+}
+
+footer {
+  background-color: #1d1c1e;
+}
+
+.menu-ftr {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.menu-ftr a {
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  letter-spacing: 2px;
+}
+
+.ftr-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14.5rem 2rem 7.2rem 2rem;
+}
+
+.ftr-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 6rem 0;
+}
+
+.ftr-card10 {
+  display: flex;
+  column-gap: 8rem;
+}
+
+.ftr-card10 a {
+  color: #b2afaf;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+.ftr-massenge {
+  position: relative;
+  display: flex;
+  column-gap: 1rem;
+  top: 3rem;
+}
+
 @media screen and (max-width: 1024px) {
   header {
     text-align: center;
   }
   .content_1 {
     flex-wrap: wrap-reverse;
-    align-items: center;
+    justify-content: center;
     row-gap: 4rem;
     padding: 0 2rem;
   }
   .content-4 {
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     row-gap: 4rem;
     padding: 12rem 2rem;
   }
@@ -156,6 +256,20 @@ a {
     border-radius: 1rem;
     padding: 0 1rem;
   }
+  .box-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-container {
+    padding: 0 3rem;
+  }
+  .ftr-backround {
+    background-image: url(../images/shared/desktop/bg-pattern-call-to-action.svg);
+    background-size: center;
+    background-repeat: no-repeat;
+    background-position: 0 -12rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -165,40 +279,161 @@ a {
   .menu {
     display: none;
   }
+  .content_1 {
+    flex-direction: row-reverse;
+    justify-content: center;
+    row-gap: 4rem;
+    padding: 0 2rem;
+  }
   .content-4 {
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     row-gap: 4rem;
+    padding: 12rem 2rem;
+  }
+  .content-22 {
+    max-width: 40.5rem;
+  }
+  .img {
+    max-width: 65.5rem;
+    width: 100%;
+    background-image: url(../images/locations/tablet/image-map-canada.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    padding: 0 2rem;
+  }
+  .img-2 {
+    max-width: 65.5rem;
+    width: 100%;
+    background-image: url(../images/locations/tablet/image-map-australia.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    padding: 0 2rem;
+  }
+  .img-3 {
+    max-width: 65.5rem;
+    width: 100%;
+    background-image: url(../images/locations/tablet/image-map-uk.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    padding: 0 2rem;
+  }
+  .box-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-container {
+    padding: 0 3rem;
+  }
+  .ftr-content {
+    padding: 0 2rem;
+  }
+  .ftr-card10 {
+    column-gap: 1rem;
+  }
+  .ftr-massenge {
+    display: flex;
+    column-gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .content_1 {
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 0 2rem;
+  }
+  .content-4 {
+    flex-direction: column;
+    justify-content: center;
     padding: 12rem 2rem;
   }
   .content-3 {
     max-width: 37.5rem;
+    height: 32rem;
     width: 100%;
-    content: url(../images/locations/tablet/image-map-canada.png);
     border-radius: 1rem;
     padding: 0 2rem;
   }
   .content-6 {
     max-width: 37.5rem;
+    height: 32rem;
     width: 100%;
-    content: url(../images/locations/tablet/image-map-australia.png);
     border-radius: 1rem;
     padding: 0 2rem;
   }
   .content-7 {
     max-width: 37.5rem;
+    height: 32rem;
     width: 100%;
-    content: url(../images/locations/tablet/image-map-uk.png);
     border-radius: 1rem;
     padding: 0 2rem;
   }
-}
-
-@media screen and (max-width: 490px) {
-  .content-2 {
-    padding: 2rem 0;
+  .ftr-card,
+  .ftr-card2,
+  .ftr-card3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 2rem;
   }
   .content-5 {
-    padding: 2rem 0;
+    height: 19rem;
+    text-align: center;
+    position: relative;
+    bottom: 4rem;
+    padding: 8rem 0;
+    border-radius: 0 0 1rem 1rem;
+  }
+  .content-2 {
+    height: 19rem;
+    text-align: center;
+    position: relative;
+    bottom: 4rem;
+    padding: 8rem 0;
+    border-radius: 0 0 1rem 1rem;
+  }
+  .content-22 {
+    height: 19rem;
+    text-align: center;
+    position: relative;
+    bottom: 4rem;
+    padding: 8rem 0;
+    border-radius: 0 0 1rem 1rem;
+  }
+  .img-2 {
+    position: relative;
+    right: 2rem;
+  }
+  h1 {
+    margin: 0 5rem 0 0;
+    text-align: center;
+  }
+  .box-footer {
+    flex-direction: column;
+  }
+  .ftr-card10 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .ftr-content {
+    flex-direction: column;
+  }
+  .ftr-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  footer {
+    height: 800px;
+  }
+  .ftr-backround {
+    background-image: url(../images/shared/desktop/bg-pattern-call-to-action.svg);
+    background-size: center;
+    background-repeat: no-repeat;
+    background-position: -12rem -10rem;
   }
 }
